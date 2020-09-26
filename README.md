@@ -1,0 +1,1 @@
+all pic was resized to 300px by using PS 
