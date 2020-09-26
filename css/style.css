@@ -1,0 +1,118 @@
+/********************************************************************************
+*          General Selectors                                                    *
+********************************************************************************/
+* {
+  margin: 0;
+  /* outline: 1px dotted red; */
+}
+
+header {
+  background-color: #3F4234;
+  color: white;
+  height: 80px;
+  margin-bottom: 30px;
+  line-height: 25px;
+}
+header section {
+  float: left;
+  margin-left: 50px;
+}
+
+nav li{
+  float: right;
+  margin: 25px 50px 0 0;
+  background-color: #A1BBD0;
+  height: 1.5em;
+  padding: 0 1.5em;
+  border-radius: 5px;
+}
+
+nav a {
+  text-decoration: none;
+  color:black;
+  
+}
+
+main {
+  max-width: 960px;
+  clear: both;
+  margin: auto;
+  text-align: center;
+  position: relative;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+fieldset {
+  border: solid 5px #A1BBD0; 
+  margin: auto;
+}
+
+legend {
+  margin-bottom: 30px;
+  background-color: #D1A827;
+  font-size: 20px;
+}
+
+form div {
+  float: left;
+  max-width: 300px;
+  margin: 0 25px 30px 0px;
+  text-align: center;
+}
+
+form div:last-of-type {
+  margin-right: 0;
+}
+
+form img {
+  max-width: 300px;
+}
+
+#voteButton{
+  background-color: #A1BBD0;
+  margin-bottom: 30px;
+  font-weight: 800;
+  width: 350px;
+  border: none;
+  border-radius: 5px;
+}
+
+table {
+  border-radius: 5px;
+  margin: auto;
+  text-align: center;
+}
+
+tr:first-of-type{
+  background-color: #A1BBD0;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(212, 245, 217);
+}
+
+th {
+  border: solid 2px black;
+  padding: 0 1.5em;
+}
+
+td {
+  border: solid 1px black;
+}
+
+canvas {
+  margin-top:30px;
+}
+
+footer {
+  background-color:#687672;
+  height: 100px;
+  text-align: center;
+}
+
+footer h2 { 
+  line-height: 50px;
+}

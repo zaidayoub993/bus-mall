@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bus Mall</title>
+  <link href="./css/reset.css" type="text/css" rel="stylesheet">
+  <link href="./css/style.css" type="text/css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.min.js"></script>
+</head>
+<body>
+  <header>
+
+    <section>
+      <img>
+      <h1>Bus Mall</h1>
+    </section>
+    <nav>
+      <ul>
+        <li><a href ="./index.html">Product Selection</a></li>
+        <li><a>Admin</a></li>
+        <li><a>Contact</a></li>
+        <li><a>Stylesheet</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+
+    <section id="productSelector">
+      <form>  
+        <fieldset>
+          <legend>Please Vote for the Most Interesting Product</legend>
+
+          <div>
+            <img src ="" id="product1">
+            <input type="radio" name="productVote" id="productVote1" data-index="0">
+            <p id="prodName1">product 1</p>
+          </div>
+          
+          <div>
+            <img src ="" id="product2" data-index="2">
+            <input type="radio" name="productVote" id="productVote2" data-index="1">
+            <p id="prodName2">product 2</p>
+          </div>
+
+          <div>
+            <img src="" id="product3" data-index="3">
+            <input type="radio" name="productVote" id="productVote3" data-index="2">
+            <p id="prodName3">product 3</p>
+          </div>
+
+          <input type="submit" id="voteButton" value="VOTE SUBMISSION">
+        </fieldset>
+      </form>
+    </section>
+
+    <section>
+      <table id="productVoteResults">
+
+      </table>
+    </section>
+
+    <canvas id="productChart" width="800px" height="400px"></canvas>
+
+  </main>
+  <footer>
+    <h2>Bus Mall © 2018 - All Rights Reserved.</h2>
+  </footer>
+  <script src="./chart.js"></script>
+  <script src="./js/app.js"></script>
+</body>
+</html>
